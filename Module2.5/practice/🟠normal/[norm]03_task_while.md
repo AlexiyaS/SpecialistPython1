@@ -20,7 +20,15 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+level_num = int(input("введите число уровней в пирамиде: "))
+sum = 0  # Переменная для накопления суммы
+count = 1
+
+while  count <= level_num:
+    block_num = count*count
+    sum = sum +block_num
+    count += 1
+print("сумма чисел написанных на кирпичах ", sum)
 ```
 
 ---
