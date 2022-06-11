@@ -32,7 +32,13 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input("введите число ступенек от 1 до 20: "))
+count = 0  # сколько раз выполнили цикл
+while count <= n:
+    s = "*"
+    s = s * count
+    print(s)
+    count += 1
 ```
 
 ---
@@ -47,4 +53,7 @@ n = 5
 s = "0"
 s = s * 5 # s = "00000" 
 ```
+  
+  
+  ****
 </details>
