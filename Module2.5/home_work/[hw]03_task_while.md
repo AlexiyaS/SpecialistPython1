@@ -28,7 +28,17 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input("Введите число от 1 до 9: "))
+count1 = 1  # счетчик цикла 1
+
+while count1 <= n:  # внешний цикл будет перебирать числа из диапазона [1, n],
+    count2 = 1
+    while count2 <= n:  # внутренний цикл выводить строку для каждого числа диапазона
+        result = count1*count
+        print('%2d' % (result), end=" ")
+        count2 += 1
+    count1 += 1
+    print()
 ```
 
 ---
