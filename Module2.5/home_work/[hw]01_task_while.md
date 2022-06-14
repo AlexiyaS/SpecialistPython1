@@ -36,6 +36,14 @@ n = 12
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+cost = float(input("Цена товара "))
+n = int(input("Количество единиц товара ")) 
+count = 1 
+
+print ("Таблица стоимости для всех товаров:")
+while count <= n:
+    one_item_cost = round(cost*count, 2)
+    print (one_item_cost)
+    count += 1
 ```
 
