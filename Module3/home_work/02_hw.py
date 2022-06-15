@@ -4,5 +4,17 @@
 # для получения случайного числа используйте функцию randint() модуля random
 import random
 numbers = []
+
 # print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
 # TODO: your code here
+
+import random
+n = int(input("Введите число элементов: "))
+numbers = []
+
+i = 0
+while i < n:
+    element = random.randint(-100, 100)
+    numbers.insert(i, element)
+    i += 1
+print(numbers)
