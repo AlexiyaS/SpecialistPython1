@@ -2,5 +2,7 @@
 # Каждый элемент должен быть выведен с новой строки.
 
 fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
-
-# TODO: your code here
+word = 1
+while word < len(fruits):
+    print(f"{word}. {fruits[word]}")
+    word += 1
