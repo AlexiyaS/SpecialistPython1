@@ -2,5 +2,7 @@
 # Каждый элемент должен быть выведен с новой строки.
 
 my_list = [24, "Василий", "выхухоль", 42, -12.5]
-
-# TODO: your code here
+word = 0
+while word < len(my_list):
+    print(my_list[word])
+    word += 1
